@@ -1,0 +1,113 @@
+chad-os/
+│
+├── README.md
+├── LICENSE
+├── VERSION
+├── index.md
+│
+├── kernel/
+│   ├── README.md
+│   ├── __init__.py
+│   ├── bootstrap.py
+│   ├── event_loop.py
+│   ├── scheduler.py
+│   ├── message_bus.py
+│   └── state.py
+│
+├── hal/
+│   ├── README.md
+│   ├── __init__.py
+│   ├── android_bridge.py
+│   ├── device_io.py
+│   ├── environment.py
+│   └── sensors.py
+│
+├── services/
+│   ├── README.md
+│   ├── __init__.py
+│   ├── registry.py
+│   ├── identity_service.py
+│   ├── memory_service.py
+│   ├── context_engine.py
+│   ├── event_service.py
+│   └── state_persistence.py
+│
+├── intelligence/
+│   ├── README.md
+│   ├── __init__.py
+│   ├── heuristic_engine.py
+│   ├── prediction_engine.py
+│   ├── adaptive_hooks.py
+│   └── reasoning_core.py
+│
+├── continuity/
+│   ├── README.md
+│   ├── __init__.py
+│   ├── identity_graph.py
+│   ├── continuity_engine.py
+│   └── timeline.py
+│
+├── apps/
+│   ├── README.md
+│   ├── __init__.py
+│   ├── system_tools/
+│   │   ├── README.md
+│   │   ├── diagnostics.py
+│   │   ├── logs.py
+│   │   └── monitor.py
+│   └── user_modules/
+│       ├── README.md
+│       └── placeholder.py
+│
+├── ui/
+│   ├── README.md
+│   ├── __init__.py
+│   ├── rendering_engine.py
+│   ├── interaction_model.py
+│   └── components/
+│       ├── README.md
+│       ├── panel.py
+│       ├── widget.py
+│       └── layout.py
+│
+├── brand/
+│   ├── README.md
+│   ├── identity.md
+│   ├── design_language.md
+│   └── assets/
+│       ├── logo.svg
+│       └── palette.json
+│
+├── website/
+│   ├── README.md
+│   ├── index.html
+│   ├── styles.css
+│   └── docs/
+│       ├── architecture.html
+│       ├── modules.html
+│       └── api.html
+│
+├── docs/
+│   ├── README.md
+│   ├── architecture.md
+│   ├── modules.md
+│   ├── api_reference.md
+│   ├── developer_guide.md
+│   └── specs/
+│       ├── kernel_spec.md
+│       ├── services_spec.md
+│       ├── intelligence_spec.md
+│       └── ui_spec.md
+│
+├── tests/
+│   ├── README.md
+│   ├── test_kernel.py
+│   ├── test_services.py
+│   ├── test_intelligence.py
+│   └── test_ui.py
+│
+└── tools/
+    ├── README.md
+    ├── build.py
+    ├── deploy.py
+    └── diagnostics.py
